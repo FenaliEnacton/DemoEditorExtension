@@ -3,4 +3,7 @@ function add_manual_create_coupon() {
         e.preventDefault()
         console.log("manual create coupon button clicked")
     })
+
+
 }
+
