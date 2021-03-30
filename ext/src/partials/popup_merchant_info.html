@@ -1,0 +1,19 @@
+<div>
+    <p>{{name}}</p>
+    {{#websites}}
+    <div class="merchant-activity">
+        <div class="link-wrapper">
+            <a href="{{url}}" target="_blank" class="primary-link">{{name}}</a>
+        </div>
+        <div>
+            <small>Last Checked At:</small>
+            <small> {{checked_at}}</small>
+        </div>
+    </div>
+    {{/websites}}
+    <div class="text-center">
+        <button class="add_new_coupon en-btn en-secondary-btn en-btn-full">
+            Add new coupon manually
+        </button>
+    </div>
+</div>
